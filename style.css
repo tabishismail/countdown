@@ -20,6 +20,9 @@ body {
     margin: 0 auto;
     background-color: #1c1c1c;
     background-image: url(bg-end1.jpg);
+    background-position-x:10px;
+    background-position-y:-200px;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: "Quicksand", sans-serif;
     overflow: hidden;
@@ -61,31 +64,6 @@ body {
                     cursor: pointer;
                 }
 
-                /* &:hover {
-                    -webkit-animation: MISSION-HOVER 1.5s infinite;
-                    -moz-animation: MISSION-HOVER 1.5s infinite;
-                    -o-animation: MISSION-HOVER 1.5s infinite;
-                    animation: MISSION-HOVER 1.5s infinite;
-                    animation-direction: alternate;
-                    animation-timing-function: ease;
-                }
-
-                @-webkit-keyframes MISSION-HOVER {
-
-                    0%,
-                    100% {
-                        font-size: 4rem;
-                        color: white;
-                    }
-
-                    50% {
-                        color: #bffcff;
-                        letter-spacing: 5px;
-                        text-shadow: 0px 0px 30px rgba(191, 252, 255, 1);
-                    }
-                }
-            } */
-
             p {
                 color: #e6dbae;
                 font-family: "Quicksand", sans-serif;
@@ -94,14 +72,6 @@ body {
                 padding: 0;
                 letter-spacing: 0.5rem;
                 text-transform: uppercase;}
-            
-                /* &:last-child {
-                    font-size: 0.75rem;
-                    font-weight: 700;
-                    margin: 3em auto;
-                    padding: 0;
-                    letter-spacing: 0.1rem;
-                } */
                     a {
                         text-decoration: none;
                         color: inherit;
